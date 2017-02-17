@@ -83,7 +83,7 @@ cmake_build
 .cmake_build
 
 # Dependencies for cross compiling
-depends/
+depends*
 
 # Generated documentation
 docs/_site
