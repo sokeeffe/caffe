@@ -72,7 +72,7 @@ models/*
 *lmdb
 
 # build, distribute, and bins (+ python proto bindings)
-build
+build*
 .build_debug/*
 .build_release/*
 distribute/*
@@ -81,6 +81,9 @@ distribute/*
 python/caffe/proto/
 cmake_build
 .cmake_build
+
+# Dependencies for cross compiling
+depends/
 
 # Generated documentation
 docs/_site
